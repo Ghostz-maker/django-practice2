@@ -10,3 +10,9 @@ def about(request):
 
 def contact(request):
     return render(request, 'practiceapp2/contact.html')
+
+from .models import Game
+
+def home(request):
+    games = Game.objects.all()
+    return render(request, 'practiceapp2/index.html', {'games': games})
