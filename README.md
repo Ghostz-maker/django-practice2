@@ -262,4 +262,5 @@ static/
 
 ### 👩‍💻 Author
 #### Made with ❤️ for learning Django
+#### - Sumitra
 <br>
